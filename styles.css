@@ -1,6 +1,21 @@
 /* Тут пиши основные стили */
 
+.text_header{
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+}
 
+.text_block{
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    color:rgba(0,0,0,0.84);
+    text-align:left;
+}
+
+.text_code{
+    font-family: "Courier New", monospace;
+    display: inline-block;
+}
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
     Стили применятся только когда страничка будет ≤800px шириной
