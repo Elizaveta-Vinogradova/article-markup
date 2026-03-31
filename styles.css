@@ -78,12 +78,47 @@ img {
     max-width: 700px;
 }
 
-.big-break {
-    display: block;
-    margin-bottom: 20px;
-}
+
 @media (max-width: 800px) {
-/* Тут пиши стили для мобилки.
-    Стили применятся только когда страничка будет ≤800px шириной
- */
+
+    .text_header {
+        width: 100%;
+        padding: 20px 15px;
+        font-size: 22px;
+    }
+
+    .text_block {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .text_code {
+        width: 100%;
+        padding: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+        padding: 10px;
+    }
+
+    .menu a {
+        font-size: 18px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    .menu {
+        padding: 10px 0;
+    }
 }
