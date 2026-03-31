@@ -4,6 +4,11 @@
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
     color: rgba(0,0,0,0.84);
     text-align: left;
+    width: 700px;
+    padding-bottom: 10px;
+    padding-left: 360px;
+    padding-right: 363px;
+    padding-top: 55px;
 }
 .menu {
     border-top: 2px solid #ccc;
@@ -56,11 +61,19 @@ nav {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
     color:rgba(0,0,0,0.84);
     text-align:left;
+    width: 700px;
+    padding-left: 362px;
+    padding-right: 361px;
 }
 
 .text_code{
     font-family: "Courier New", monospace;
-    display: inline-block;
+    width: 700px;
+}
+
+.big-break {
+    display: block;
+    margin-bottom: 20px;
 }
 @media (max-width: 800px) {
 /* Тут пиши стили для мобилки.
