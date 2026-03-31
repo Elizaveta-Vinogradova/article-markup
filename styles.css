@@ -1,15 +1,4 @@
 /* Тут пиши основные стили */
-
-.text_header{
-    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
-    color: rgba(0,0,0,0.84);
-    text-align: left;
-    width: 700px;
-    padding-bottom: 10px;
-    padding-left: 360px;
-    padding-right: 363px;
-    padding-top: 55px;
-}
 .menu {
     border-top: 2px solid #ccc;
     border-bottom: 2px solid #ccc;
@@ -54,21 +43,39 @@ ul {
     gap: 30px;
     list-style: none;
 }
-nav {
-
+.text_header {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Arial, sans-serif;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
+    width: 700px;
+    padding-left: 360px;
+    padding-right: 363px;
+    padding-top: 55px;
+    padding-bottom: 10px;
+    margin: 0;
 }
-.text_block{
+
+.text_block {
     font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-    color:rgba(0,0,0,0.84);
-    text-align:left;
+    color: rgba(0,0,0,0.84);
+    text-align: left;
     width: 700px;
     padding-left: 362px;
-    padding-right: 361px;
+    padding-right: 362px;
+    margin: 0 0 55px 0;
 }
 
-.text_code{
+.text_code {
     font-family: "Courier New", monospace;
-    width: 700px;
+    background-color: #f4f4f4;
+    padding: 2px 4px;
+    border-radius: 3px;
+}
+
+img {
+    display: block;
+    margin-left: 362px;
+    max-width: 700px;
 }
 
 .big-break {
